@@ -75,7 +75,7 @@ class BranchListPage extends StatelessWidget {
                   ),
                 );
               },
-              child: Padding(
+              child: Container(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
